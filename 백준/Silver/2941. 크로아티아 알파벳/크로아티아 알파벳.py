@@ -1,5 +1,4 @@
 char = input()
-cnt = 0
 list_char = ['c=', 'c-', 'dz=', 'd-', 'lj', 'nj', 's=', 'z=']
 
 for i in list_char:
