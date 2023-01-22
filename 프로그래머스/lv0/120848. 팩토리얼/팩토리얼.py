@@ -1,9 +1,7 @@
 def solution(n):
     answer = 0
     num = 1
-    while True:
+    while num <= n:
         answer += 1
         num *= answer
-        if num > n:
-            break
     return (answer - 1)
