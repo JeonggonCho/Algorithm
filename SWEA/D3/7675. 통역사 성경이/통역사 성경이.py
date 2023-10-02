@@ -7,7 +7,6 @@ def cnt_end_points(str): # 문장 개수 세는 함수
             cnt += 1
     return cnt
 
-
 def is_name(name): # 숫자가 없고 첫글자는 대문자이고 나머지는 소문자인지 확인하여 이름인지 아닌지 boolean값 반환하는 함수
     length = len(name)
     if length == 1:
@@ -20,7 +19,6 @@ def is_name(name): # 숫자가 없고 첫글자는 대문자이고 나머지는 
             return True
         else:
             return False
-
 
 T = int(input())
 
